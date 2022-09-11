@@ -39,5 +39,5 @@ Mehdi Meguenani										                                                       
 16.	 
 17.	 Le fichier passwd permet stocke les informations de connexion au système et les utilisateurs 
 18.	  
-19.	 La commande qui permet d’afficher les utilisateurs est less etc/passwd
+19.	 La commande qui permet d’afficher les utilisateurs est wc –l /etc/passwd
 20.	 
