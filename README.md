@@ -16,10 +16,10 @@ Mehdi Meguenani										                                                       
 4.	Afin de revenir au dossier précédent il faut faire « cd -»
 5.	Il n’est pas possible de faire le « cd /root » nous n’avons pas la permission
 6. La commande initial « sudo cd /root » n’est pas autorisé il faut donc dans un premier temps effectué « sudo su » afin de pouvoir utilisé « sudo »
-	8. A l’aide de la commande rm le Fichier 1 peut être supprimé sans soucis au contraire du Dossier 1 la commande ne fonctionne pas car c’est un dossier 
-	9. La commande qui permet de supprimer un dossier est « Rmdir »
-	10. La commande « Rmdir » ne peut pas être effectué car le dossier n’est pas vide 
-	11. Afin de supprimer en une seul commande le dossier 2 il faut faire « rm – r »
+8. A l’aide de la commande rm le Fichier 1 peut être supprimé sans soucis au contraire du Dossier 1 la commande ne fonctionne pas car c’est un dossier 
+9. La commande qui permet de supprimer un dossier est « Rmdir »
+10. La commande « Rmdir » ne peut pas être effectué car le dossier n’est pas vide 
+11. Afin de supprimer en une seul commande le dossier 2 il faut faire « rm – r »
 ### Commandes importantes : 
 1.	La commande qui permet d’afficher la date est « date » . La commande time permet de voir le temps d’exécution d’une commande.
 2.	La commande « ls » permet d’afficher une partie des fichier et dossier. Alors que la commande « la » affiche tous les dossier et fichier même ceux caché. Les fichiers avec des point sont des fichiers cachés
