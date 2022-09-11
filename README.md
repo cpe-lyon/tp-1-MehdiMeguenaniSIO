@@ -46,3 +46,5 @@ Mehdi Meguenani										                                                       
 23.  
 24. Le fichier history.log se trouvre dans " /var/log/apt/history.log "
 25. La commande locate recherhce les fichiers dans une base de donnée, le fichier tout juste créer n'est pas encore prénsent dans la BD il faut donc l'actualiser a l'aide de la commande "updatedb".
+# Exercice 3. Découverte de l’éditeur de texte nano
+1. 
