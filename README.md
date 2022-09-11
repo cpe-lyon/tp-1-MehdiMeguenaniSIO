@@ -54,3 +54,4 @@ Compte Rendu TP1
 5. Pour sauvegarder Ctrl + X puis Y 
 # Exercice 4. Personnalisation du shell
 
+(/Image TP 1/Question10.png)
