@@ -54,4 +54,4 @@ Compte Rendu TP1
 5. Pour sauvegarder Ctrl + X puis Y 
 # Exercice 4. Personnalisation du shell
 
-(/Asset/Question4.PNG)
+![GitHub Logo](/Asset/Question4.PNG)
