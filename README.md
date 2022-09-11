@@ -42,9 +42,15 @@ Mehdi Meguenani										                                                       
 19.	 La commande qui permet d’afficher les utilisateurs est wc –l /etc/passwd
 20.	 
 21.  Pour trouver tous les fichier ayant pour nom passw il faut effectuer la commande " find / -iname "passwd" " 
-22.  Afin d'enregistré les fichiers trouvé dans un fichier précis il faut faire " find / -iname "passwd" >> list_passwd_files.txt ". Pour redirifer les erreurs la commande est " find / -iname "passwd" >> /dev/null " 
+22.  Afin d'enregistré les fichiers trouvé dans un fichier précis il faut faire " find / -iname "passwd" >> list_passwd_files.txt ". Pour redirifer les erreurs la commande est " find / -iname "passwd" 2>> /dev/null " 
 23.  
 24. Le fichier history.log se trouvre dans " /var/log/apt/history.log "
 25. La commande locate recherhce les fichiers dans une base de donnée, le fichier tout juste créer n'est pas encore prénsent dans la BD il faut donc l'actualiser a l'aide de la commande "updatedb".
 # Exercice 3. Découverte de l’éditeur de texte nano
-1. 
+1. Afin de copier le fihcier il faut faire " cp /var/log/syslog log.txt " puis nano log.txt pour afficher 
+2. Afin de remplacer le mot kernel il faut faire  Alt Gr + 8 
+3. On peut se situer au début du fichier avec "Ctrl + Fleche du haut" ensuite Ctrl + K pour couper le fichier. On se met a la fin du fichier avec Ctrl + Fleche du bas puis on colle avec Ctrl + U 
+4. Pour annuler l'action il faut faire Alt + U 
+5. Pour sauvegarder Ctrl + X puis Y 
+# Exercice 4. Personnalisation du shell
+
