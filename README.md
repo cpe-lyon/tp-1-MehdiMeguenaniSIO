@@ -33,7 +33,7 @@ Mehdi Meguenani										                                                       
 10.	 La commande sleep 10 | echo 'toto' permet de mettre un temp d’éxécution a la commande echo 
 11.	 Grace a la  commande « file » on identifie le type du fichier 
 12.	 On observe que le lien_phy est mis à jour. Le contenu est gardé même quand le fichier original est supprimé 
-13.	  Le fichier lien_sym se met a jour comme pour la commande précédente. Par contre une fois le fichier lien_phy supprimer alors les le lien_smy est aussi supprimer 
+13.	 Le fichier lien_sym se met a jour comme pour la commande précédente. Par contre une fois le fichier lien_phy supprimer alors les le lien_smy est aussi supprimer 
 14.	 Le raccourci qui permet cela est Ctrl + S
 15.	 La commande pour afficher  les 15 derniere ligne du fichier est « tail –n15 /var/log/syslog »
 16.	 
@@ -41,3 +41,8 @@ Mehdi Meguenani										                                                       
 18.	  
 19.	 La commande qui permet d’afficher les utilisateurs est wc –l /etc/passwd
 20.	 
+21.  Pour trouver tous les fichier ayant pour nom passw il faut effectuer la commande " find / -iname "passwd" " 
+22.  Afin d'enregistré les fichiers trouvé dans un fichier précis il faut faire " find / -iname "passwd" >> list_passwd_files.txt ". Pour redirifer les erreurs la commande est " find / -iname "passwd" >> /dev/null " 
+23.  
+24. Le fichier history.log se trouvre dans " /var/log/apt/history.log "
+25. La commande locate recherhce les fichiers dans une base de donnée, le fichier tout juste créer n'est pas encore prénsent dans la BD il faut donc l'actualiser a l'aide de la commande "updatedb".
