@@ -6,10 +6,10 @@ Mehdi Meguenani										                                                       
 # Exercice 2. Prise en main de l’interpréteur de commandes
 ### Manuel : 
 1. La commande which permet de trouver le chemin des commandes éxécutable. En faisant la commande « which  ls » j’obtiens le chemin d’accès de la commande ls qui est « usr/bin/ls »
-2/ Afin de rechercher un terme quand on consulte une page du manuel il faut faire «/nomduterme » par exemple pour on cherche le terme optios il faut faire « /options »
-3/ Afin de de sortir du manuel il faut écrire « q » puis taper sur entrée 
-4/ La section 6 décrit les les jeux et d’autre programme amusant disponible 
-Navigation dans l’arborescence des fichiers
+2. Afin de rechercher un terme quand on consulte une page du manuel il faut faire «/nomduterme » par exemple pour on cherche le terme optios il faut faire « /options »
+3. Afin de de sortir du manuel il faut écrire « q » puis taper sur entrée 
+4. La section 6 décrit les les jeux et d’autre programme amusant disponible 
+### Navigation dans l’arborescence des fichiers : 
 1.	Afin d’accèder au dossier var/log il faut effectuer la commande « cd var/log »
 2.	Pour remonter au dossier parent il faut utiliser la commande cd /var
 3.	Pour retourner au dossier personnel il faut faire « cd $Home » ou bien juste « cd »
@@ -20,7 +20,7 @@ Navigation dans l’arborescence des fichiers
 	9. La commande qui permet de supprimer un dossier est « Rmdir »
 	10. La commande « Rmdir » ne peut pas être effectué car le dossier n’est pas vide 
 	11. Afin de supprimer en une seul commande le dossier 2 il faut faire « rm – r »
-	Commandes importantes : 
+### Commandes importantes : 
 1.	La commande qui permet d’afficher la date est « date » . La commande time permet de voir le temps d’exécution d’une commande.
 2.	La commande « ls » permet d’afficher une partie des fichier et dossier. Alors que la commande « la » affiche tous les dossier et fichier même ceux caché. Les fichiers avec des point sont des fichiers cachés
 3.	Le programme ls se situe « usr/bin/ls »
